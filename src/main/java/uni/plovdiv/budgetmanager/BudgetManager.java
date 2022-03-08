@@ -14,6 +14,11 @@ public class BudgetManager {
     private List<Double> expenditures = new ArrayList<>();
 
 
+    public void addExpenditures(double expenditure){
+        this.expenditures.add(expenditure);
+    }
+
+
     public void addIncome(double income) {
         this.incomes.add(income);
     }
